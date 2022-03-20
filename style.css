@@ -82,19 +82,14 @@ body{
      " header "
      "main  "
      "footer"
-   
  }
+ 
  
  main{
      grid-area: main;
      display: grid;
      grid-template-columns: auto;
-     /*grid-template-rows: 10vw 100vh 10vh;
-     grid-template-areas: 
-     " side-bar"
-     "main-content"  
-     "side-bar2";
-    ;*/
+     
  }
  #headerSec{
      display: flex;
@@ -160,7 +155,7 @@ body{
    height: 130px;
  }
  .surfer img{
-   width: 80px;
+   width: 100px;
    position: relative;
    animation: horizontal 10s linear infinite;
    
@@ -199,45 +194,6 @@ body{
     top: 0%;
 }
 }
- /* 
- #easterEgg img{
-  width: 40px;
-  position: relative;
-  animation: easterEggAnim 40s infinite;
-  animation-timing-function: linear;
-}
-@keyframes easterEggAnim
-{
-  0% {
-    left: 0%; transform: scaleX(1); opacity: 0%;
-  }
-  1% {
-    left: 3%; transform: scaleX(1); opacity: 100%;
-  }
-  25%{
-    left: 92%; transform: scaleX(1); opacity: 100%;
-  }
-  26%{
-    left: 95%; transform: scaleX(1); opacity: 0%;
-  }
-  50%{
-    left: 95%; transform: scaleX(-1); opacity: 0%;
-  }
-  51%{
-    left: 92%; transform: scaleX(-1); opacity: 100%;
-  }
-  75%{
-    left: 3%; transform: scaleX(-1); opacity: 100%;
-  }
-  76%{
-    left: 0%; transform: scaleX(-1); opacity: 0%;
-  }
-  100% {
-    left: 0%; transform: scaleX(1); opacity: 0%;
-  }
-}
- */
-
 
  .texto{
      padding: 0 10% 0;
@@ -249,6 +205,7 @@ body{
      margin-bottom: 20px;
      width: 80%;
      height: 250px;
+     max-width: 650px;
      
  }
 
@@ -467,7 +424,6 @@ body{
     }
 
     .card {
-        /* Add shadows to create the "card" effect */
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
       }
@@ -475,12 +431,10 @@ body{
           color: red;
       }
       
-      /* On mouse-over, add a deeper shadow */
       .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
       }
       
-      /* Add some padding inside the card container */
       .container {
         padding: 2px 16px;
       }
@@ -494,6 +448,5 @@ body{
        flex-direction: row;
         
     }
-
 
 }
